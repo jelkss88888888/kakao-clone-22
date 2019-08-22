@@ -1,0 +1,22 @@
+.friend {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+}
+
+.friend__friend-avatar {
+	width: 50px;
+	border-radius: 35%;
+	margin-right: 15px;
+}
+
+.friend__name {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.friend__conditiontalk,
+.chat__timestamp {
+	opacity: 0.6;
+}
