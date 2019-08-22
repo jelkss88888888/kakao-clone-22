@@ -11,7 +11,8 @@
 	margin-right: 15px;
 }
 
-.friend__name {
+.friend__name,
+.message__author {
 	display: block;
 	margin-bottom: 5px;
 }
