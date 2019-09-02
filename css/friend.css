@@ -11,6 +11,12 @@
 	margin-right: 15px;
 }
 
+.friend__friend-g-avatar {
+	width: 60px;
+	border-radius: 35%;
+	margin-right: 15px;
+}
+
 .friend__name,
 .message__author {
 	display: block;
