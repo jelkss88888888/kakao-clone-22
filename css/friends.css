@@ -5,11 +5,26 @@
 .friends__plus {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 20px;
 }
-.friends__plus .friends__title {
+.friends__plus,
+.friends__title {
 	font-size: 11px;
 	padding-bottom: 14px;
 }
+
+.friends__title {
+	opacity: 0.7;
+}
+
 .plus__content .friend__name {
 	font-size: 12px;
+}
+
+.friend .friend__now-listening {
+	border: 2px solid #5aad77;
+	font-size: 12px;
+	padding: 5px 8px;
+	border-radius: 12px;
 }
