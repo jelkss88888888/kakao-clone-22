@@ -1,0 +1,41 @@
+.more .more__btn-list,
+.more .more__suggs-list {
+	margin: 25px 0px;
+	display: flex;
+	margin-left: 15px;
+}
+
+.more .more__btn,
+.more .more__sugg {
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+
+.more .more__btn-title,
+.more .sugg__title {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.more__suggs {
+	border-top: 1px solid #f7f7f7;
+	padding-top: 15px;
+}
+
+.more .more__suggs-title {
+	font-size: 12px;
+}
+
+.more .sugg__icon {
+	background-color: #fce006;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.sugg__icon i {
+	font-size: 28px;
+	color: white;
+}
