@@ -47,3 +47,57 @@
 	background-image: url("../images/white-waves.png");
 	height: 100vh;
 }
+
+#chatbg .chat__messages {
+	padding: 0px 15px;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#chatbg .chat__timestamp {
+	background-color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 10px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#chatbg .message {
+	display: flex;
+}
+
+.incoming-message {
+	align-self: flex-start;
+}
+
+.sent-message {
+	align-self: flex-end;
+	align-items: center;
+}
+
+.message__bubble {
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 13px;
+}
+
+.message__friend {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.friend-chat {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.message__timestamp {
+	font-size: 12px;
+	margin: 10px;
+}
