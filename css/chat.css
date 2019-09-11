@@ -1,0 +1,49 @@
+.chat-body {
+	padding: 0;
+}
+
+.chat-body .status-bar,
+.chat-body .header {
+	padding: 0 20px;
+}
+
+.chat__write {
+	position: fixed;
+	bottom: 30px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f7f7f7;
+	padding: 20px 25px;
+	border-radius: 25px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+		0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write i {
+	font-size: 22px;
+}
+
+.chat__write .chat__write-column:nth-child(2) {
+	width: 80%;
+}
+
+.chat__write-column input {
+	width: 100%;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.chat__write-column input:focus {
+	outline: none;
+}
+
+#chatbg {
+	background-image: url("../images/white-waves.png");
+	height: 100vh;
+}
