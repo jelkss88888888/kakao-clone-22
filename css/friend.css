@@ -24,6 +24,6 @@
 }
 
 .friend__conditiontalk,
-.chat__timestamp {
+.chats .chat__timestamp {
 	opacity: 0.6;
 }

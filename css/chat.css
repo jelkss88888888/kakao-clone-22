@@ -1,5 +1,20 @@
+.fixed {
+	position: fixed;
+	background-color: white;
+	padding: 10px 0px;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+		0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chat-body {
 	padding: 0;
+	margin-top: 10px;
+}
+
+.chat {
+	padding-top: 95px;
 }
 
 .chat-body .status-bar,
@@ -7,16 +22,17 @@
 	padding: 0 20px;
 }
 
-.chat__write {
+.chat__write-container {
 	position: fixed;
-	bottom: 30px;
-	width: 80%;
+	/*bottom: 30px;
+	width: 80%;*/
+	bottom: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #f7f7f7;
-	padding: 20px 25px;
-	border-radius: 25px;
+	padding: 0px 25px;
+	/*border-radius: 25px;*/
 	margin: auto;
 	left: 0;
 	right: 0;
@@ -24,28 +40,45 @@
 		0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 
-.chat__write i {
-	font-size: 22px;
+.chat__write {
+	bottom: 0;
+	width: 80%;
+	border-radius: 0;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+	margin-left: 35px;
+}
+
+.chat__write:focus {
+	outline: none;
+}
+
+.chat__write:focus ~ .chat__icon {
+	opacity: 0;
+}
+
+.chat__icon {
+	font-size: 18px;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.chat__icon-left {
+	position: absolute;
+}
+
+.chat__icon-right {
+	position: absolute;
+	right: 20px;
 }
 
 .chat__write .chat__write-column:nth-child(2) {
 	width: 80%;
 }
 
-.chat__write-column input {
-	width: 100%;
-	border: none;
-	padding: 10px;
-	font-size: 15px;
-}
-
-.chat__write-column input:focus {
-	outline: none;
-}
-
-#chatbg {
+.chat-body {
 	background-image: url("../images/white-waves.png");
-	height: 100vh;
+	height: 1000vh;
 }
 
 #chatbg .chat__messages {
@@ -64,6 +97,7 @@
 	border-radius: 15px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	/*opacity: 0.6;*/
 }
 
 #chatbg .message {
