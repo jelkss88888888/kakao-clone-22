@@ -202,3 +202,18 @@
 .sent-message {
 	animation: sentanime 0.7s ease-out forwards;
 }
+
+@keyframes rotate {
+	from {
+		transform: rotateY(1turn);
+	}
+	to {
+		transform: none;
+	}
+}
+
+.chat-avatar {
+	box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+		0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+	animation: rotate 2s linear infinite;
+}
